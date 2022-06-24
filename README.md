@@ -1,9 +1,9 @@
-##Inspiration
+## Inspiration
 Getting a proper health facility is a dream for all. Not all government/private hospitals have good facilities, equipment, or experienced staff to take care of the people of that city. The issue can be resolved if all the hospitals work collaboratively and ensure good facilities are provided to all.
 
 For eg: Consider in a small town, a government hospital does not have the equipment to treat the patient, so, the hospital referred that patient to a more equipped hospital near the city. Now the patient feels helpless to go to the referred hospital and explain his/her illness, as they know must follow the same procedures as followed before in the small-town hospital. Like going through the same test, same checkups, etc.
 
-##What it does
+## What it does
 
 The project has the following features:
 
@@ -32,7 +32,7 @@ Initially, there was no plan of including the statistics page for hospitals. But
 
 According to the actions, the app should have 10 separate pages because there are a lot of functionalities running. To limit the number of pages, I used the concept of routing along with parameterized GET requests so that I can use a single page for 3-4 actions. (For eg: I have used the Profiles page for adding a new patient, changing the hospital stats, adding patient reports, etc.) This thing not only helped me to enhance the UI/UX but also got involved in brainstorming and plating around sorting information along with the different route requests.
 
-##Accomplishments that we are proud of
+## Accomplishments that I am proud of
 
 1️⃣Developing an app in 2 days and also the use case of this project is very high, as it is related to the healthcare industry.
 
@@ -42,7 +42,7 @@ According to the actions, the app should have 10 separate pages because there ar
 
 4️⃣From uploading reports of the patients to updating them I am proud of every bit in making this project and it rightly fulfills the purpose of why I made this.
 
-##What We learned
+## What I learned
 
 1. Handling REST API requests
 
@@ -54,11 +54,8 @@ According to the actions, the app should have 10 separate pages because there ar
 
 5. Making a completely responsive web app that looks great on every screen size
 
-##What have we made before?
-Around 4 to 5 days back, we started working on this project. But at that point in time, we only added the **hospital entity** which can refer the patients and also manage their records effectively. So, in the GitHub repo, you can see that our previous work is contained within the hospital folder and some files from the utilities folder. 
-
-##What have we made this weekend?
-You can see through the video itself, that we have provided the video in which you can only see the **hospital's functionalities**. This weekend, we did the following things:
+##What have I made this weekend?
+This weekend, I did the following things:
 
 1️⃣ Made a dynamic and interactive landing page for the website (play.html) page which has many sections. But the main highlight of the page is the **find out section**
 
@@ -103,6 +100,3 @@ Apart from all the mentioned functionalities which we have discussed, we have an
 3️⃣ Updating the profile section and much more.
 
 I genuinely insist that you watch the JS-voice assistant video also because we have almost minimized the main video by 90% and this feature is making our project very much unique and awesome. So, do have a look at that video also. 
-
-https://youtu.be/xq3O43UyBkg
-(From 3:45, the JS voice assistant use is shown)
