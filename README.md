@@ -25,7 +25,7 @@ The project has the following features:
 
 - Pending (P): If the referral is still pending i.e. the referred-to hospital has not responded to the request
 
-There are other functionalities also, as you will read this documenttation then you will find them.
+There are other functionalities also, as you will read this documentation you will find them.
 
 ## How I built it
 I thought web application will be an important part of making the project accessible to every hospital because in this manner more and more hospitals can collaborate on this platform. So I used PHP, bootstrap, and HTML for making a site that can prove to be an efficient solution for the above-stated problem. I have routed various actions of the user such that the hospital can have a seamless experience in using the application.
