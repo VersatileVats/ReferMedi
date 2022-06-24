@@ -25,6 +25,8 @@ The project has the following features:
 
 - Pending (P): If the referral is still pending i.e. the referred-to hospital has not responded to the request
 
+There are other functionalities also, as you will read this documenttation then you will find them.
+
 ## How I built it
 I thought web application will be an important part of making the project accessible to every hospital because in this manner more and more hospitals can collaborate on this platform. So I used PHP, bootstrap, and HTML for making a site that can prove to be an efficient solution for the above-stated problem. I have routed various actions of the user such that the hospital can have a seamless experience in using the application.
 
@@ -59,7 +61,7 @@ According to the actions, the app should have 10 separate pages because there ar
 
 5. Making a completely responsive web app that looks great on every screen size
 
-##What have I made this weekend?
+## What have I made this weekend?
 This weekend, I did the following things:
 
 1️⃣ Made a dynamic and interactive landing page for the website (play.html) page which has many sections. But the main highlight of the page is the **find out section**
@@ -94,14 +96,14 @@ If the appointment gets accepted by the requested hospital, then a **chat option
 
 ![](https://i.ibb.co/6XbJNk8/doc.jpg )
 
-So, in this fashion, we have created a website that makes space for Patients, hospitals & Doctors and offers a ton of functionalities. We have created a beautiful-looking website that has very strong backend support and we are proud of the fact that we pulled off this great website by using bare PHP, HTML, BOOTSTRAP & JS. No fancy libraries or frameworks have been used to build this. 
+So, in this fashion, I have created a website that makes space for Patients, hospitals & Doctors and offers a ton of functionalities. I have created a beautiful-looking website that has very strong backend support and I am proud of the fact that I pulled off this great website by using bare PHP, HTML, BOOTSTRAP & JS. 
 
-We have tried our best to explain everything that can be done by the patients and doctors through pictures and stuff. We wanted to put this all together in a video but that was taking the length to 13 minutes. So, we tried to explain the hospital stuff in the video and other functionalities through textual format only.
+> No fancy libraries or frameworks have been used to build this. 
 
-Apart from all the mentioned functionalities which we have discussed, we have another major thing in the store. We wanted the hospitals to just not have the **typical custom way of interacting through the website - TOUCH & TYPE**. So, we made a JS-based voice assistant for doing the majority of the things. Hospitals can use their voice to do the following things:
+Apart from all the mentioned functionalities which I have discussed, I have another major thing in the store. I wanted the hospitals to just not have the **typical custom way of interacting through the website - TOUCH & TYPE**. So, I made a JS-based voice assistant for doing the majority of the things. Hospitals can use their voice to do the following things:
 
 1️⃣ Create a patient's record
 2️⃣ Navigating between various sections of the website
 3️⃣ Updating the profile section and much more.
 
-I genuinely insist that you watch the JS-voice assistant video also because we have almost minimized the main video by 90% and this feature is making our project very much unique and awesome. So, do have a look at that video also. 
+I genuinely insist that you watch the JS-voice assistant video also because I have almost minimized the main video by 90% and this feature is making our project very much unique and awesome. So, do have a look at that video also. 
