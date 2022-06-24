@@ -1,5 +1,5 @@
 ## Inspiration
-Getting a proper health facility is a dream for all. Not all government/private hospitals have good facilities, equipment, or experienced staff to take care of the people of that city. The issue can be resolved if all the hospitals work collaboratively and ensure good facilities are provided to all.
+> Getting a proper health facility is a dream for all. Not all government/private hospitals have good facilities, equipment, or experienced staff to take care of the people of that city. The issue can be resolved if all the hospitals work collaboratively and ensure good facilities are provided to all.
 
 For eg: Consider in a small town, a government hospital does not have the equipment to treat the patient, so, the hospital referred that patient to a more equipped hospital near the city. Now the patient feels helpless to go to the referred hospital and explain his/her illness, as they know must follow the same procedures as followed before in the small-town hospital. Like going through the same test, same checkups, etc.
 
@@ -7,25 +7,30 @@ For eg: Consider in a small town, a government hospital does not have the equipm
 
 The project has the following features:
 
-Patients' records are maintained on the platform, sharing while referring to other hospitals.
-Referring patients to other hospitals will be seamless.
-The hospitals have a way to connect.
-The patient will be intimated on two occasions (through Twilio API). One, when the patient is registered by a hospital, and another one, when the patient's referral request is accepted by the other hospital.
-When the hospital will make a referral request, then all the related test reports of that patient will be forwarded as an attachment along with the email. So, every hospital will be receiving the referral requests in the form of an email.
-Every hospital will be having a statistics page that will be having every referral log. The referral log can have three states which are as follows:
+1️⃣ Patients' records are maintained on the platform, sharing while referring to other hospitals.
 
-a. Accepted (A): If the referred patient has been accepted
+2️⃣ Referring patients to other hospitals will be seamless.
 
-b. Rejected (R): If the referred patient has been rejected
+3️⃣ The hospitals have a way to connect.
 
-c. Pending (P): If the referral is still pending i.e. the referred-to hospital has not responded to the request
+4️⃣ The patient will be intimated on two occasions (through Twilio API). One, when the patient is registered by a hospital, and another one, when the patient's referral request is accepted by the other hospital.
 
-##How we built it
+5️⃣ When the hospital will make a referral request, then all the related test reports of that patient will be forwarded as an attachment along with the email. So, every hospital will be receiving the referral requests in the form of an email.
+
+6️⃣ Every hospital will be having a statistics page that will be having every referral log. The referral log can have three states which are as follows:
+
+- Accepted (A): If the referred patient has been accepted
+
+- Rejected (R): If the referred patient has been rejected
+
+- Pending (P): If the referral is still pending i.e. the referred-to hospital has not responded to the request
+
+## How I built it
 I thought web application will be an important part of making the project accessible to every hospital because in this manner more and more hospitals can collaborate on this platform. So I used PHP, bootstrap, and HTML for making a site that can prove to be an efficient solution for the above-stated problem. I have routed various actions of the user such that the hospital can have a seamless experience in using the application.
 
 For hosting the website, I used the Hostinger service. Referral request templates have been coded from scratch and the inclusion of reports as attachments with email has elevated the project level a lot. To use the messaging service, I used the Twilio REST API and configured it using the Integromat scenarios (webhooks) so the patient will also be intimated about what is going on behind the scenes. Initially, I thought of making it a hospital-only-oriented website but in the end, I included the patient in the workflow which sort of added new dimensions to the project.
 
-##Challenges We ran into
+## Challenges I ran into
 When I thought of integrating Twilio with the project, I was facing many problems The message request was failing again and again because I was not considering spaces in the parameters for the REST API. Then I solved that by encoding %20 for spaces. The webhooks for Twilio were also a bit frustrating because I wasn't able to properly extract the URL parameters from the request and then form a message body for the SMS
 
 Initially, there was no plan of including the statistics page for hospitals. But as I proceed further I changed a lot of routing in the app and thus used PHP to its fullest and then made three states for the request (which are looking beautiful) and pleasing to the eyes.
@@ -63,7 +68,7 @@ This weekend, I did the following things:
 
 Here you can see that the user can do two things: firstly he/she can search for any disease (just have to enter the disease name in the input field and then click enter) and the related information like **symptoms, causes, treatment, etc** will be shown. Second is the Covid stat section which enables the user to get covid stats of 232 countries with a mere click. 
 
-2️⃣ As we have now expanded our project for two more entities (patients & doctors) we have to change the registration form for them. **We have ensured that the doctor doesn't have to register themselves because whenever a hospital will add a doctor, the login credentials will be automatically created at the back end and will be shared with the doctor** and thus the doctor can log in into his/her account anytime (which will save their precious time). Let's have a look at the input fields for patients in the form.
+2️⃣ As I have now expanded the project for two more entities (patients & doctors) I have to change the registration form for them. **I have ensured that the doctor doesn't have to register themselves because whenever a hospital will add a doctor, the login credentials will be automatically created at the back end and will be shared with the doctor** and thus the doctor can log in into his/her account anytime (which will save their precious time). Let's have a look at the input fields for patients in the form.
 
 ![](https://i.ibb.co/SB4Wvzb/register.jpg)
 
