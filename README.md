@@ -39,7 +39,7 @@ According to the actions, the app should have 10 separate pages because there ar
 
 ## Accomplishments that I am proud of
 
-1️⃣Developing an app in 2 days and also the use case of this project is very high, as it is related to the healthcare industry.
+1️⃣Developing an app in 2 week and also the use case of this project is very high, as it is related to the healthcare industry.
 
 2️⃣I am sure the hospitals will be having a seamless experience while referring and managing patients.
 
