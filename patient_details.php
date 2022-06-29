@@ -60,40 +60,7 @@ if (!isset($_SESSION['role'])) {
                 </nav>
             
             <div class="container-fluid">
-                    
-                    <div class="row mb-3">
-                        
-                        <div class="col-lg-8" style="margin: auto">
-                            <div class="row">
-                                <p style="text-align: center;">You can change your registered information through this page so that the <span class="text-dark">details</span> always stay updated. </p>
-                                <div class="col">
-                                    <div class="card shadow mb-3">
-                                        <div class="card-header py-2">
-                                            <p class="text-primary m-0 fw-bold">Change account details</p>
-                                        </div>
-                                        <div class="card-body">
-                                            <form action="utilities/sole_patient.php" method="get">
-                                                <div class="row">
-                                                    <div class="col-md-6 col-sm-12">
-                                                        <div class="mb-3"><label class="form-label" for="email"><strong>Email</strong></label><input class="form-control" type="email" name="email" id="email" required></div>
-                                                    </div>
-                                                    <div class="col-md-6 col-sm-12">
-                                                        <div class="mb-3"><label class="form-label" for="phone"><strong>Phone Number</strong></label><input class="form-control" type="text" name="phone" id="phone" maxlength="10" required></div>
-                                                    </div>
-                                                </div>
-                                                <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit">Save Settings</button></div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            
-            </div>
+                
             
             <!--Modal for voice commands-->
                 <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="font-family:Open Sans,Helvetica Neue,Arial,sans-serif;">
